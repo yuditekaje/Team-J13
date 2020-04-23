@@ -1,0 +1,57 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";  
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height : 65px;
+  width : 100%;
+  background-color : rgba(34, 49, 52, 0.9);  
+  position : fixed;
+  top : 0;
+  z-index : 10;  
+}
+
+.logo {
+  width : 124px;
+  margin-top : 20px;
+}
+
+.header-left {
+  float : left;
+  padding-left: 25px;
+}
+
+.header-right {
+  float : right;
+  background-color : rgba(34, 49, 52, 0.3); 
+  transition : all 0.5s;
+}
+
+.header-right:hover {
+  background-color : rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height : 65px;
+  padding-left : 25px;
+  padding-right : 25px;
+  color : white;
+  display : block;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2018/darkenergy.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
