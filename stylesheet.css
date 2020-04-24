@@ -13,8 +13,7 @@ a {
 
 header {
   height : 65px;
-  width : 100%;
-  font-family: Rajdhani,sans-serif;
+  width : 100%;  
   background-color : rgba(34, 49, 52, 0.9);  
   position : fixed;
   top : 0;
@@ -47,6 +46,7 @@ header {
   padding-right : 25px;
   color : white;
   display : block;
+  font-family: Rajdhani,sans-serif;
 }
 
 .top-wrapper {
